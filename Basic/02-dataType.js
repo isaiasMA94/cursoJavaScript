@@ -36,3 +36,26 @@ let mySymbol = Symbol("my symbol"); //representa un valor unico e inmutable,
 let myBigInt = BigInt(1234567890123456789012345678901234567890);//representa un numero entero de gran tamaño,
 let myBigInt2 = 1234567890123456789012345678901234567890n; //se puede utilizar la letra n al final del numero para indicar que es un BigInt
 // se utiliza para trabajar con numeros enteros que son demasiado grandes para ser representados como un Number normal
+
+
+
+//mostrar los tipos de datos
+console.log(typeof nombre); //string
+console.log(typeof apellido); //string
+
+console.log(typeof edad); //number
+console.log(typeof salario); //number   
+console.log(typeof altura); //number
+console.log(typeof temperatura); //number
+
+console.log(typeof esMayorDeEdad); //boolean
+console.log(typeof esMenorDeEdad); //boolean
+
+console.log(typeof undefinedValue); //undefined
+
+console.log(typeof nullValue); //object
+
+console.log(typeof mySymbol); //symbol
+
+console.log(typeof myBigInt); //bigint
+console.log(typeof myBigInt2); //bigint
