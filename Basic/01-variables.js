@@ -17,3 +17,9 @@ console.log(helloWorld2) //se puede reasignar el valor de la variable
 //const
 const helloWorld3 = "Hola javaScript 3"
 console.log(helloWorld3) //no se puede redeclarar la variable
+
+helloWorld3 = "Hola DENUEVO, javaScript 3" //no se puede reasignar el valor de la variable
+console.log(helloWorld3) //no se puede reasignar el valor de la variable
+
+
+//UTILIZAR LET Y CONST
